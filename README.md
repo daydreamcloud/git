@@ -59,3 +59,59 @@ The status command is used to display the state of the working directory and the
 ### Syntax
 
 $ git status  
+
+## 7) Git push Command
+It is used to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repo. It's the complement to git fetch, but whereas fetching imports commits to local branches on comparatively pushing exports commits to remote branches. Remote branches are configured by using the git remote command. Pushing is capable of overwriting changes, and caution should be taken when pushing.
+
+Git push command can be used as follows.
+
+Git push origin master
+
+This command sends the changes made on the master branch, to your remote repository.
+
+### Syntax
+
+$ git push [variable name] master  
+
+Git push -all
+
+This command pushes all the branches to the server repository.
+
+### Syntax
+
+$ git push --all  
+
+## 8) Git pull command
+Pull command is used to receive data from GitHub. It fetches and merges changes on the remote server to your working directory.
+
+### Syntax
+
+$ git pull URL 
+
+## 9) Git Branch Command
+This command lists all the branches available in the repository.
+
+### Syntax
+
+$ git branch  
+
+## 10) Git Merge Command
+This command is used to merge the specified branch?s history into the current branch.
+
+### Syntax
+
+$ git merge BranchName  
+
+## 11) Git log Command
+This command is used to check the commit history.
+
+### Syntax
+
+$ git log  
+
+By default, if no argument passed, Git log shows the most recent commits first. We can limit the number of log entries displayed by passing a number as an option, such as -3 to show only the last three entries.
+
+$ git log -3  
+
+### Reference Url
+- https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
