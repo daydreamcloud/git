@@ -28,24 +28,26 @@ This command is used to add one or more files to staging (Index) area.
 
 ### Syntax
 
-To add one file
+- To add one file
 
 $ git add Filename  
-To add more than one file
+
+- To add more than one file
 
 $ git add*  
 
 ## 5) Git commit command
 Commit command is used in two scenarios. They are as follows.
 
-Git commit -m
+- Git commit -m
 
 This command changes the head. It records or snapshots the file permanently in the version history with a message.
 
 ### Syntax
 
 $ git commit -m " Commit Message"  
-Git commit -a
+
+- Git commit -a
 
 This command commits any files added in the repository with git add and also commits any files you've changed since then.
 
@@ -65,7 +67,7 @@ It is used to upload local repository content to a remote repository. Pushing is
 
 Git push command can be used as follows.
 
-Git push origin master
+- Git push origin master
 
 This command sends the changes made on the master branch, to your remote repository.
 
@@ -73,7 +75,7 @@ This command sends the changes made on the master branch, to your remote reposit
 
 $ git push [variable name] master  
 
-Git push -all
+- Git push -all
 
 This command pushes all the branches to the server repository.
 
